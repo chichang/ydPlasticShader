@@ -1,0 +1,22 @@
+# ydPlasticShader                   0x00070000
+ 
+[node ydPlasticShader]
+    maya.name               STRING  "ydPlasticShader"
+    maya.id                 INT      0x00070000
+    maya.classification     STRING  "shader/surface"
+    maya.output_name        STRING  "outColor"
+    maya.output_shortname   STRING  "out"
+ 
+    [attr Kd_color]
+        default STRING "diffuse_color"
+
+    [attr Ks_color]
+        default STRING "specular_color"
+
+    [attr roughness]
+        min                 FLOAT           0
+        softmax             FLOAT           1
+
+    [attr specbalance]
+        min                 FLOAT           0
+        softmax             FLOAT           1
