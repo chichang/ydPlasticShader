@@ -1,7 +1,8 @@
 #include <ai.h>
 #include <cstring>
 
-// A Simple Shader
+// A Simple Shader.
+// testing by chi-chang chu.
 AI_SHADER_NODE_EXPORT_METHODS(SimpleMethods);
  
 namespace
